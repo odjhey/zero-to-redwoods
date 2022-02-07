@@ -13,3 +13,10 @@ model Samurai {
   name String
   age  Int?
 }
+
+model Ninja {
+  id   String    @id @default(cuid())
+  name String
+  age  Int?
+  aka  String?
+}
