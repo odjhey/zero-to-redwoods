@@ -1,6 +1,6 @@
 import { MetaTags } from '@redwoodjs/web'
 import BannerMessage from 'src/components/BannerMessage/BannerMessage'
-import SamuraisCell from 'src/components/SamuraisCell/SamuraisCell'
+import SamuraisCell from 'src/components/SamuraisCell'
 
 const HomePage = () => {
   return (

@@ -1,5 +1,6 @@
 import type { SamuraisQuery } from 'types/graphql'
 import type { CellSuccessProps, CellFailureProps } from '@redwoodjs/web'
+import Samurai from 'src/components/Samurai'
 
 export const QUERY = gql`
   query SamuraisQuery {
@@ -23,7 +24,11 @@ export const Success = ({ samurais }: CellSuccessProps<SamuraisQuery>) => {
   return (
     <ul>
       {samurais.map((item) => {
-        return <li key={item.id}>{JSON.stringify(item)}</li>
+        return (
+          <li key={item.id}>
+            <Samurai {...item}></Samurai>
+          </li>
+        )
       })}
     </ul>
   )
