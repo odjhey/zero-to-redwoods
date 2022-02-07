@@ -1,5 +1,6 @@
 import { MetaTags } from '@redwoodjs/web'
 import BannerMessage from 'src/components/BannerMessage/BannerMessage'
+import SamuraisCell from 'src/components/SamuraisCell/SamuraisCell'
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <h1>HomePage</h1>
 
       <BannerMessage></BannerMessage>
+      <SamuraisCell></SamuraisCell>
     </>
   )
 }
