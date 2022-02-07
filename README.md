@@ -8,7 +8,6 @@
    1. sdl
    1. service
    1. frontend (cells)
-
 1. forms (read on your own time) (https://learn.redwoodjs.com/docs/tutorial/building-a-form)
 
 ## Best Resource
